@@ -29,8 +29,6 @@ Data source: [crypto_data.csv](https://min-api.cryptocompare.com/data/all/coinli
 ##### scaled data scatter plot:
 ![scaled_df_scatter_plot](https://github.com/kaylaisnomyname/Cryptocurrencies/blob/main/images/tradable%20scaled%20scatter%20plot.png?raw=true)  
 
-
-
-### Challenge:
-Challenge encountered: jupyter notebook kernel kept crushing when running KMean and plotly imports.
+### ps:
+Challenge encountered: jupyter notebook kernel kept crushing when running KMean and plotly imports.  
 Fixed: plotly installed with conda/pip was out of date and thus not function properly in jupyter notebook; Update plotly libraries in anaconda prompt have the issue fixed. 
